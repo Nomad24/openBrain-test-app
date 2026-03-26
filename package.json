@@ -1,0 +1,13 @@
+{
+  "name": "crm-mvp",
+  "version": "1.0.0",
+  "description": "MVP CRM для управления заявками",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
