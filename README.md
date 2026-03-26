@@ -218,3 +218,13 @@ const [error, setError] = useState(null);
 3. **Database errors** — 500 с общим сообщением
 4. **Network errors** — отображаются пользователю
 
+## Screenshots
+
+### Dashboard
+![Dashboard](./screenshots/dashboard.png)
+
+### Create Request
+![Create Request](./screenshots/createRequest.png)
+
+### Request Detail
+![Request Detail](./screenshots/requestDetail.png)
